@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: rumenbalev/students:1.0.0
+    image: rumenbalev/rumenbalev/studen-reg-app:1.0.0
     ports:
       - "8080:8080" # Map port 3030 on the host to port 3030 in the container
     environment:
